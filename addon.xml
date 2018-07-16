@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.screensaver.example"
+    name="Python Screensaver Example"
+    version="1.0.0"
+    provider-name="Zag">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">An Example Python Screensaver</summary>
+    <description lang="en">An Example Python Screensaver</description>
+    <website>www.theaudiodb.com</website>
+    <email>zag@kodi.tv</email>
+    <assets>
+		<icon>icon.png</icon>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+    <news>Initial release of an Example Screensaver Add-on to help new developers build on</news>
+    <source>https://github.com/zag2me/script.screensaver.example</source>
+  </extension>
+</addon>

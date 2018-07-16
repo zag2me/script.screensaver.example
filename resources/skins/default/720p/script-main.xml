@@ -1,0 +1,24 @@
+﻿<window>
+    <controls>
+        <control type="image">
+            <description>Epic Background</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1280</width>
+            <height>720</height>
+            <texture>pacific_rim.jpg</texture>
+        </control>
+		<control type="label">
+            <description>Label</description>
+            <posx>0</posx>
+            <posy>300</posy>
+            <width>1280</width>
+            <height>720</height>
+            <textcolor>hotpink</textcolor>
+			<shadowcolor>ff000000</shadowcolor>
+            <label>°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸[CR]This is an Example Screensaver[CR]°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸</label>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+    </controls>
+</window>
